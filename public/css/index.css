@@ -1,0 +1,134 @@
+body {
+  padding-top: 70px;
+  background-color: #437F97 !important;
+}
+
+.navbar {
+  background-color: #fff !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.professor button {
+  background-color: #008CBA;
+  color: #fff;
+}
+
+.navbar-transparent button {
+  background-color: transparent;
+  border: none;
+  color: #000;
+}
+
+.inline {
+   display:inline-block;
+}
+
+.professor-stats-update {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-top:  1px solid lightgray;
+}
+
+.reactions {
+  padding-top: 15px;
+}
+
+.transparent button{
+  background-color: transparent;
+  border: none;
+}
+
+.post {
+  padding-top:10px;
+}
+
+.professor-feed .icon-check-sign {
+  color: #000;
+  /* Sets padding at 2px on all sides at once */
+  padding: 2px;
+  /* Sets the border radius to 2px for each corner. */
+  border-radius: 2px;
+}
+
+.navbar-post button{ 
+  background-color:#fff; 
+  border: none; 
+  color: #000;
+} 
+
+.students {
+  padding-top: -20px;
+}
+
+.attendance button{
+  padding-left: 30px;
+  background-color: #008CBA;
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 4px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+}
+.button:hover {
+    background-color: #008CBA !important; /* Green */
+    color: white !important;
+}
+
+.attendance button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»' !important;
+  position: absolute !important;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#result > div {
+
+  color: #008CBA;
+  background-color: #FFF;
+  
+
+}
+
+.students {
+  color: #fff;
+}
+
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid #3498db;
+  width: 40px;
+  height: 40px;
+  -webkit-animation: spin 1s linear;
+  animation: spin 1s linear;
+    
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+
+
+
+
+
